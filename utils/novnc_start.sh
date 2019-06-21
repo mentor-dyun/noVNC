@@ -4,6 +4,10 @@
 # ----- the openbox window manager
 # ----- and the x11vnc server
 #
+DISPLAY=:1
+DEPTH=24
+GEOMETRY=1280X1024
+
 Xvfb ${DISPLAY} -screen 0 ${GEOMETRY}x${DEPTH} &
 sleep 5
 openbox-session &
