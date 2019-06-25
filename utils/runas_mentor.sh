@@ -7,8 +7,8 @@
 # ---- usage:
 # ----    runas_mentor.sh ls -l .
 #
-: ${NEWUID=500}
-: ${NEWGID=500}
+: ${NEWUID=1000}
+: ${NEWGID=1000}
 #
 # ----- we can't change me user to a UID that is
 # ----- already in use
