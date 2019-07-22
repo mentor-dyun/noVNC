@@ -19,4 +19,4 @@ x11vnc -display ${DISPLAY} -nopw -listen 0.0.0.0 -xkb -ncache 10 -ncache_cr -for
 # ----- can connect on the exposed port (6080)
 #
 cd /home/mentor/noVNC
-./utils/launch.sh --vnc 0.0.0.0:5900
+./utils/launch.sh --vnc 0.0.0.0:5900 &
